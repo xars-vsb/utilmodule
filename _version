@@ -1,1 +1,7 @@
-return 1.1
+return function(retrieve)
+    if retrieve == 0 then
+        return loadstring("https://pastebin.com/raw/5hk9jEh8")
+    elseif retrieve = 1 then
+        error("Retrieve argument 1 ("1") is currently invalid, still in progress.")
+    end
+end
